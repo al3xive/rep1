@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="../assets/img/apple-icon.png">
+    <link rel="icon" href="../assets/img/favicon.png">
+    <title>
+       Driving Route 66
+    </title>
+    <!--     Fonts and icons     -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../assets/css/material-kit.css?v=2.0.3">
+    <!-- Documentation extras -->
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link href="../assets/assets-for-demo/demo.css" rel="stylesheet" />
+    <link href="../assets/assets-for-demo/vertical-nav.css" rel="stylesheet" />  
+</head>
+
+<body class="landing-page">
+
+    <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionsNav">
+        
+        <div class="container">
+            <div class="navbar-translate">
+                <a class="navbar-brand" href="../assets/img/logo66.png"><img src="../assets/img/logo66.png"></a>
+                <a class="navbar-brand" href="#"><b>Driving Route 66</b></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="dropdown nav-item">
+
+                        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                          <i class="material-icons">card_travel</i> Trip Planner
+                        </a>
+
+                        <div class="dropdown-menu dropdown-with-icons">
+
+                            <a href="#tts" class="dropdown-item">
+                                <i class="material-icons">terrain</i> Things To See
+                            </a>
+
+                            <a href="#the_mother_road" class="dropdown-item">
+                                <i class="material-icons">navigation</i>The Mother Road
+                            </a>
+
+                            <a href="#pts" class="dropdown-item">
+                                <i class="material-icons">hotel</i> Places To Stay
+                            </a>
+
+                        </div>
+
+                      </li>
+
+
+                    <li class="nav-item">
+                        <a href="#cmm" class="nav-link">
+                            <i class="material-icons">group</i>Our Community
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#sctn" class="nav-link">
+                            <i class="material-icons">local_phone</i> Contact Us
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-inetrval="9000">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2" class=""></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="page-header header-filter" style=" background-image: url('../assets/img/route66_start.jpg')">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h1 class="title">Your Journey Starts Here.</h1>
+                                <h4>If you’re looking for great displays of neon signs, mom-and-pop motels in the middle of nowhere, or kitschy Americana, do as the song says and “get your kicks on Route 66.”</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="page-header header-filter" style="background-image: url('../assets/img/1242183.jpg');">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 ml-auto mr-auto text-center">
+                                <h1 class="title">Hit The Road</h1>
+                                <h4>We are an active community of Route 66 veterans and newcomers alike. This website relies entirely on the experiences of its users so please feel free to recommend your own personal favorites.</h4>
+                                <br>
+                                <h6>Find us us on:</h6>
+                                <div class="buttons">
+                                    <a href="#pablo" class="btn btn-just-icon btn-white btn-link btn-lg">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                    <a href="#pablo" class="btn btn-just-icon btn-white btn-link btn-lg">
+                                        <i class="fa fa-facebook-square"></i>
+                                    </a>
+                                    <a href="#pablo" class="btn btn-just-icon btn-white btn-link btn-lg">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                    <a href="#pablo" class="btn btn-just-icon btn-white btn-link btn-lg">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="page-header header-filter" style="background-image: url('../assets/img/240543275.jpg');">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-7 ml-auto text-right">
+                                <h1 class="title">Enjoy the Sunset</h1>
+                                <h4>It’s hard to top the romantic vibe at Palisades Park, a 26-acre stretch that overlooks the Pacific and the Pier. Take your pick from several well-positioned park benches scattered throughout, or toss a picnic blanket on the manicured lawns, and enjoy the beautiful Santa Monica sunset.</h4>
+                                <br>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <i class="material-icons">keyboard_arrow_left</i>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <i class="material-icons">keyboard_arrow_right</i>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+    <div class="main main-raised">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="container">
+                    <h2 id="tts" class="title text-center">Things To See</h2>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card card-background" style="background-image: url(../assets/img/caddy1.jpg)">
+                        <div class="card-body">
+                            <h6 class="card-category text-info">Sights & Attractions</h6>
+                            <a href="#pablo">
+                                <h3 class="card-title">Cadillac Ranch</h3>
+                            </a>
+                            <p class="card-description">
+                                In 1974, an instantly recognizable and iconic landmark of Route 66 was born – Cadillac Ranch. An art group known as the Ant Farm were...
+                            </p>
+                            <a href="#pablo" class="btn btn-danger btn-round">
+                                <i class="material-icons">subject</i> Read
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card card-background" style="background-image: url(../assets/img/calico.jpg)">
+                        <div class="card-body">
+                            <h6 class="card-category text-info">Sights & Attractions</h6>
+                            <a href="#pablo">
+                                <h3 class="card-title">Calico ghost town</h3>
+                            </a>
+                            <p class="card-description">
+                                Calico is an old West mining town that has been around since 1881 during the largest silver strike in California. With its 500 mines, Calico produced over $20...
+                            </p>
+                            <a href="#pablo" class="btn btn-danger btn-round">
+                                <i class="material-icons">subject</i> Read
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card card-background" style="background-image: url(../assets/img/arch.jpg)">
+                        <div class="card-body">
+                            <h6 class="card-category text-info">Sights & Attractions</h6>
+                            <a href="#pablo">
+                                <h3 class="card-title">Gateway Arch</h3>
+                            </a>
+                            <p class="card-description">
+                                An iconic image of St Louis, the Gateway Arch stands 192m tall and 192m wide at it’s base making it the US’s tallest monument. Visitors can reach the observation deck...
+                            </p>
+                            <a href="#pablo" class="btn btn-danger btn-round">
+                                <i class="material-icons">subject</i> Read
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="section text-center">
+                <div class="row">
+
+                    <div class="col-md-9 ml-auto mr-auto">
+                        <h2 id="the_mother_road" class="title">The Mother Road</h2>
+                        <h4 class="description">The romance of Route 66 continues to captivate people around the world. Running between Chicago and Los Angeles, “over two thousand miles all the way” in the words of the popular R&B anthem, this legendary old road passes through the heart of the United States on a diagonal trip that takes in some of the country’s most archetypal roadside scenes. If you’re looking for great displays of neon signs, rusty middle-of-nowhere truck stops, or kitschy Americana, do as the song says and “get your kicks on Route 66.”
+                        
+                        <div class="card card-plain card-blog">
+                            <div class="card-header card-header-image">
+                                <a href="#pablo">
+                                    <img class="img img-raised" src="../assets/img/Route66_map.jpg" alt="Responsive ">
+                                </a>
+                            <div class="colored-shadow colored-shadow-big" style="background-image: url(../assets/img/Route66_map.jpg); opacity: 1;"></div></div>
+                        </div>
+                        
+                        But perhaps the most compelling reason to follow Route 66 is to experience the road’s ingrained time line of contemporary America. Before it was called Route 66, and long before it was even paved in 1926, this corridor was traversed by the National Old Trails Highway, one of the country’s first transcontinental highways. For three decades before and after World War II, Route 66 earned the title “Main Street of America” because it wound through small towns across the Midwest and Southwest, lined by hundreds of cafés, motels, gas stations, and tourist attractions. During the Great Depression, hundreds of thousands of farm families, displaced from the Dust Bowl, made their way west along Route 66 to California, following what John Steinbeck called “The Mother Road” in his vivid portrait, The Grapes of Wrath. After World War II, many thousands more expressed their upward mobility by leaving the industrial East, bound for good jobs in the suburban idyll of Southern California—again following Route 66, which came to embody the demographic shift from the Rust Belt to the Sun Belt.
+                        
+                        <div class="card card-plain card-blog">
+                            <div class="card-header card-header-image">
+                                <a href="#pablo">
+                                    <img class="img img-raised" src="../assets/img/route66_start.jpg" alt="Responsive ">
+                                </a>
+                            <div class="colored-shadow colored-shadow-big" style="background-image: url(../assets/img/Route66_01Start.jpg); opacity: 1;"></div></div>
+                        </div>
+
+                        Beginning in the late 1950s and continuing gradually over the next 25 years, old Route 66 was bypassed section by section as the high-speed Interstate highways were completed. Finally, after the last stretch of freeway was completed in 1984, Route 66 was officially decommissioned. The old route is now designated Historic Route 66.
+                        <br>
+                        Though it is no longer a main route across the country, Route 66 has retained its mystique in part due to the very same effective hype, hucksterism, and boosterism that animated it through its half-century heyday. It was a Route 66 sight, the marvelous Meramec Caverns, that gave the world the bumper sticker. And it was here on Route 66 that the great American driving vacation first flourished. Billboards and giant statues along the highway still hawk a baffling array of roadside attractions, tempting passing travelers to view giant blue whales, to see live rattlesnakes and other wild creatures on display in roadside menageries, or to stay at “Tucumcari Tonite.”
+
+                        <div class="card card-plain card-blog">
+                            <div class="card-header card-header-image">
+                                <a href="#pablo">
+                                    <img class="img img-raised" src="../assets/img/route66_motel.jpg" alt="Responsive ">
+                                </a>
+                            <div class="colored-shadow colored-shadow-big" style="background-image: url(../assets/img/route66_motel.jpg); opacity: 1;"></div></div>
+                        </div>
+
+                        The same commercial know-how and shameless self-promotion has helped the towns along the old route stay alive. Diners and motels play up their Route 66 connections, and many bona fide Route 66 landmarks are kept in business by nostalgic travelers intent on experiencing a taste of this endlessly endangered American experience. That said, many quirky old motels and cafés hang on by a thread of hope, sit vacant, or survive in memory only—all for want of an Interstate exit. In fact, of all the roads covered in this book, Route 66 has perhaps felt the greatest impact from the modern Interstate world; for many stretches you’ll be forced to leave the old two-lane and follow the super slabs that have been built right on top of the old road.
+                        <br>
+                        Route 66 passes through a marvelous cross-section of American scenes, from the cornfields of Illinois all the way to the golden sands and sunshine of Los Angeles, passing by such diverse environs as the Grand Canyon, the Native American communities of the desert Southwest, the small-town Midwest heartlands of Oklahoma and the Ozarks, and the gritty streets of St. Louis and Chicago. Whether you are motivated by an interest in history, feel a nostalgic yearning for the “good old days” Route 66 has come to represent, or simply want to experience firsthand the amazing diversity of people and landscapes that line its path, Route 66 offers an unforgettable journey into America, then and now.
+
+                        <div class="card card-plain card-blog">
+                            <div class="card-header card-header-image">
+                                <a href="#pablo">
+                                    <img class="img img-raised" src="../assets/img/route66_santamonica.jpg" alt="Responsive ">
+                                </a>
+                            <div class="colored-shadow colored-shadow-big" style="background-image: url(../assets/img/route66_santamonica.jpg); opacity: 1;"></div></div>
+                        </div>
+
+                        </h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="container">
+                    <h2 id="pts" class="title text-center">Places To Stay</h2>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card card-background" style="background-image: url(../assets/img/rdess_inn1.jpg)">
+                        <div class="card-body">
+                            <h6 class="card-category text-info">Accommodation</h6>
+                            <a href="#pablo">
+                                <h3 class="card-title">El Rey Inn</h3>
+                            </a>
+                            <p class="card-description">
+                                This historic Santa Fe hotel, opened in 1936, offers 86 delightfully different and charming rooms, including spacious suites with fireplaces & kitchenettes. Built on the original Route 66...
+                            </p>
+                            <a href="#pablo" class="btn btn-danger btn-round">
+                                <i class="material-icons">subject</i> Read
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card card-background" style="background-image: url(../assets/img/wigwam1.jpg)">
+                        <div class="card-body">
+                            <h6 class="card-category text-info">Accommodation</h6>
+                            <a href="#pablo">
+                                <h3 class="card-title">Wigwam Motel</h3>
+                            </a>
+                            <p class="card-description">
+                                This Route 66 Wigwam Motel is a fun stop and is the final of 7 Wigwam Motels originally constructed (only 3 of which still exist). There are 19 wigwams available to choose from with grounds...
+                            </p>
+                            <a href="#pablo" class="btn btn-danger btn-round">
+                                <i class="material-icons">subject</i> Read
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card card-background" style="background-image: url(../assets/img/comfort_inn_santa_monica.jpg)">
+                        <div class="card-body">
+                            <h6 class="card-category text-info">Accommodation</h6>
+                            <a href="#pablo">
+                                <h3 class="card-title">Comfort Inn</h3>
+                            </a>
+                            <p class="card-description">
+                                It’s a Comfort Inn so you know what you’re getting here – it’s a good basic hotel that’s far enough away from the beach if that’s not your thing but not so far that it can’t be reached by foot...
+                            </p>
+                            <a href="#pablo" class="btn btn-danger btn-round">
+                                <i class="material-icons">subject</i> Read
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="section text-center">
+                <div class="container">
+                    <h2 id="cmm" class="title text-center">Our Community</h2>
+                </div>
+                
+                <div class="team">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card card-profile card-plain">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        
+                                        <div class="card-header card-header-image hovereffect colored-shadow" style="opacity: 1;">
+                                            <img class="img-responsive" src="../assets/img/faces/card-profile1-square.jpg" alt="">
+                                            <div class="overlay">
+                                                <h2>More about Me</h2>
+                                                <p>
+                                                    <a href="../assets/img/faces/card-profile1-square.jpg">Bio</a>
+                                                </p>
+                                            </div>
+                                                
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body">
+                                            <h4 class="card-title">John Campbell</h4>
+                                            <h6 class="category text-muted">Route 66 Veteran</h6>
+                                            <p class="card-description">
+                                                Don't be scared to hit the road and see what's up there.
+                                            </p>
+                                        </div>
+                                        <div class="card-footer justify-content-center">
+                                            <a href="#pablo" class="btn btn-just-icon btn-link btn-twitter">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                            <a href="#pablo" class="btn btn-just-icon btn-link btn-facebook">
+                                                <i class="fa fa-facebook-square"></i>
+                                            </a>
+                                            <a href="#pablo" class="btn btn-just-icon btn-link btn-google">
+                                                <i class="fa fa-google"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card card-profile card-plain">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        
+                                        <div class="card-header card-header-image hovereffect colored-shadow" style="opacity: 1;">
+                                            <img class="img-responsive" src="../assets/img/faces/card-profile6-square.jpg" alt="">
+                                            <div class="overlay">
+                                                <h2>More about Me</h2>
+                                                <p>
+                                                    <a href="../assets/img/faces/card-profile6-square.jpg">Bio</a>
+                                                </p>
+                                            </div>
+                                                
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Sara Knicks</h4>
+                                            <h6 class="category text-muted">Traveler</h6>
+                                            <p class="card-description">
+                                                Better to see something once than hear about it a thousand times.
+                                            </p>
+                                        </div>
+                                        <div class="card-footer justify-content-center">
+                                            <a href="#pablo" class="btn btn-just-icon btn-link btn-linkedin">
+                                                <i class="fa fa-linkedin"></i>
+                                            </a>
+                                            <a href="#pablo" class="btn btn-just-icon btn-link btn-facebook">
+                                                <i class="fa fa-facebook-square"></i>
+                                            </a>
+                                            <a href="#pablo" class="btn btn-just-icon btn-link btn-dribbble">
+                                                <i class="fa fa-dribbble"></i>
+                                            </a>
+                                            <a href="#pablo" class="btn btn-just-icon btn-link btn-google">
+                                                <i class="fa fa-google"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+
+                        <div class="col-md-6">
+                            <div class="card card-profile card-plain">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        
+                                        <div class="card-header card-header-image hovereffect colored-shadow" style="opacity: 1;">
+                                            <img class="img-responsive" src="../assets/img/faces/card-profile4-square.jpg" alt="">
+                                            <div class="overlay">
+                                                <h2>More about Me</h2>
+                                                <p>
+                                                    <a href="../assets/img/faces/card-profile4-square.jpg">Bio</a>
+                                                </p>
+                                            </div>
+                                                
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Nansy Hughes</h4>
+                                            <h6 class="category text-muted">Traveler</h6>
+                                            <p class="card-description">
+                                                The most beautiful in the world is, of course, the world itself.
+                                            </p>
+                                        </div>
+                                        <div class="card-footer justify-content-center">
+                                            <a href="#pablo" class="btn btn-just-icon btn-link btn-youtube">
+                                                <i class="fa fa-youtube-play"></i>
+                                            </a>
+                                            <a href="#pablo" class="btn btn-just-icon btn-link btn-twitter">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                            <a href="#pablo" class="btn btn-just-icon btn-link btn-instagram">
+                                                <i class="fa fa-instagram"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card card-profile card-plain">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        
+                                        <div class="card-header card-header-image hovereffect colored-shadow" style="opacity: 1;">
+                                            <img class="img-responsive" src="../assets/img/faces/card-profile2-square.jpg" alt="">
+                                            <div class="overlay">
+                                                <h2>More about Me</h2>
+                                                <p>
+                                                    <a href="../assets/img/faces/card-profile2-square.jpg">Bio</a>
+                                                </p>
+                                            </div>
+                                                
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body">
+                                            <h4 class="card-title">George West</h4>
+                                            <h6 class="category text-muted">Musician, Traveler</h6>
+                                            <p class="card-description">
+                                                Dare to live the life you’ve always wanted.<br>
+                                                Cheers!
+                                            </p>
+                                        </div>
+                                        <div class="card-footer justify-content-center">
+                                            <a href="#pablo" class="btn btn-just-icon btn-link btn-linkedin">
+                                                <i class="fa fa-linkedin"></i>
+                                            </a>
+                                            <a href="#pablo" class="btn btn-just-icon btn-link btn-facebook">
+                                                <i class="fa fa-facebook-square"></i>
+                                            </a>
+                                            <a href="#pablo" class="btn btn-just-icon btn-link btn-google">
+                                                <i class="fa fa-google"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="section" id="carousel">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 mr-auto ml-auto">
+
+                            
+                            <div class="card card-raised card-carousel">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                  <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class=""></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2" class="active"></li>
+                                  </ol>
+                                  <div class="carousel-inner">
+                                    <div class="carousel-item">
+                                      <img class="d-block w-100" src="./assets/img/bg2.jpg" alt="First slide">
+                                      <div class="carousel-caption d-none d-md-block">
+                                        <h4>
+                                            <i class="material-icons">location_on</i>
+                                            Yellowstone National Park, United States
+                                        </h4>
+                                      </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img class="d-block w-100" src="./assets/img/bg3.jpg" alt="Second slide">
+                                      <div class="carousel-caption d-none d-md-block">
+                                        <h4>
+                                            <i class="material-icons">location_on</i>
+                                            Somewhere Beyond, United States
+                                        </h4>
+                                      </div>
+                                    </div>
+                                    <div class="carousel-item active">
+                                      <img class="d-block w-100" src="./assets/img/bg.jpg" alt="Third slide">
+                                      <div class="carousel-caption d-none d-md-block">
+                                        <h4>
+                                            <i class="material-icons">location_on</i>
+                                            Yellowstone National Park, United States
+                                        </h4>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                    <i class="material-icons">keyboard_arrow_left</i>
+                                    <span class="sr-only">Previous</span>
+                                  </a>
+                                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                    <i class="material-icons">keyboard_arrow_right</i>
+                                    <span class="sr-only">Next</span>
+                                  </a>
+                                </div>
+                            </div>
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- <div class="section section-contacts">
+                <div class="row">
+                    <div class="col-md-8 ml-auto mr-auto">
+                        <h2 class="text-center title">Work with us</h2>
+                        <h4 class="text-center description">Divide details about your product or agency work into parts. Write a few lines about each one and contact us about any further collaboration. We will responde get back to you in a couple of hours.</h4>
+                        <form class="contact-form">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="bmd-label-floating">Your Name</label>
+                                        <input type="email" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="bmd-label-floating">Your Email</label>
+                                        <input type="email" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleMessage" class="bmd-label-floating">Your Message</label>
+                                <textarea type="email" class="form-control" rows="4" id="exampleMessage"></textarea>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4 ml-auto mr-auto text-center">
+                                    <button class="btn btn-primary btn-raised">
+                                        Send Message
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+
+    <div class="cd-section" id="sctn" data-parallax="true">
+
+        <div class="contactus-1 section-image" style="background-image: url('../assets/img/stock-photo-119887699.jpg');">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <h2 class="title">Come over, say Hi!</h2>
+                        <h5 class="description">Want to meet us personally? Check the address below.</h5>
+                        <div class="info info-horizontal">
+                            <div class="icon icon-red">
+                                <i class="material-icons">pin_drop</i>
+                            </div>
+                            <div class="description">
+                                <h4 class="info-title">Find us at</h4>
+                                <p class="description"> 380 Santa Monica Pier,  
+                                    <br> Santa Monica, CA 90401Bld,
+                                    <br> USA
+                                </p>
+                            </div>
+                        </div>
+                        <div class="info info-horizontal">
+                            <div class="icon icon-red">
+                                <i class="material-icons">phone</i>
+                            </div>
+                            <div class="description">
+                                <h4 class="info-title">Give us a call</h4>
+                                <p class="description"> John Campbell
+                                    <br> +1 (310) 260-8744
+                                    <br> Mon - Fri, 10am-6pm
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-md-5 ml-auto">
+                        <div class="card card-contact">
+                            <form id="contact-form" method="post">
+                                <div class="card-header card-header-raised card-header-danger text-center">
+                                    <h4 class="card-title">Contact Us</h4>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group label-floating is-empty bmd-form-group">
+                                                <label class="bmd-label-floating">First Name</label>
+                                                <input type="text" name="name" class="form-control">
+                                                <span class="material-input"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group label-floating is-empty bmd-form-group">
+                                                <label class="bmd-label-floating">Last Name</label>
+                                                <input type="text" name="name" class="form-control">
+                                                <span class="material-input"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group label-floating is-empty bmd-form-group">
+                                        <label class="bmd-label-floating">Email address</label>
+                                        <input type="email" name="email" class="form-control">
+                                        <span class="material-input"></span>
+                                    </div>
+                                    <div class="form-group label-floating is-empty bmd-form-group">
+                                        <label for="exampleMessage1" class="bmd-label-floating">Your Message</label>
+                                        <textarea name="message" class="form-control" id="exampleMessage1" rows="6"></textarea>
+                                        <span class="material-input"></span>
+                                    </div>
+                                    <div class="form-group form-file-upload form-file-multiple">
+                                        <input type="file" multiple="" class="inputFileHidden">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control inputFileVisible" placeholder="Прикрепить файл">
+                                            <span class="input-group-btn">
+                                                <button type="button" class="btn btn-fab btn-round btn-primary" style="background-color: #f33527;">
+                                                    <i class="material-icons">attach_file</i>
+                                                </button>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer justify-content-between">
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" type="checkbox" value=""> I'm not a robot
+                                            <span class="form-check-sign">
+                                                <span class="check"></span>
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <button type="submit" class="btn btn-danger pull-right">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div> -->
+
+                    <div class="col-md-5 ml-auto">
+                        <div class="card card-contact">
+                            <form id="contact-form" method="post">
+                                <div class="card-header card-header-raised card-header-danger text-center">
+                                    <h4 class="card-title">Test Form</h4>
+                                </div>
+                                <div class="card-body">
+
+                                    <div class="form-group label-floating is-empty bmd-form-group">
+                                        <label class="bmd-label-floating">Email address</label>
+                                        <input type="email" name="email" class="form-control">
+                                        <span class="material-input"></span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                    </div>
+
+                                    <div class="form-group col-md-4">
+                                        <label for="inputState">Dropdown List</label>
+                                        <select id="inputState" class="form-control">
+                                            <option selected>Choose...</option>
+                                        <option>Element 1</option>
+                                        <option>Element 2</option>
+                                        <option>Element 3</option>
+                                        <option>Element 4</option>
+                                      </select>
+                                    </div>
+
+                                    <div class="form-check form-check-inline">
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1"> 1
+                                            <span class="form-check-sign">
+                                                <span class="check"></span>
+                                            </span>
+                                        </label>
+                                    </div>
+
+                                    <div class="form-check form-check-radio form-check-inline">
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
+                                            <span class="circle">
+                                                <span class="check"></span>
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="form-group form-file-upload form-file-multiple">
+                                        <input type="file" multiple="" class="inputFileHidden">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control inputFileVisible" placeholder="Attach File">
+                                            <span class="input-group-btn">
+                                                <button type="button" class="btn btn-fab btn-round btn-primary" style="background-color: #f33527;">
+                                                    <i class="material-icons">attach_file</i>
+                                                </button>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer justify-content-between">
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" type="checkbox" value=""> I'm not a robot
+                                            <span class="form-check-sign">
+                                                <span class="check"></span>
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <button type="submit" class="btn btn-danger pull-right">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer footer-black footer-big">
+        <div class="container">
+            <div class="content">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5>About Us</h5>
+                        <p>We are an active community of Route 66 veterans and newcomers alike. This website relies entirely on the experiences of its users so please feel free to recommend your own personal favorites.</p>
+                        <p>Every Route 66 road trip is unique, and this site is in no way intended to be a definitive guide to the old road. However, we sincerely hope it offers a starting point to anyone planning their own Route 66 vacation.</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <h5>Our Instagram</h5>
+                        <div class="gallery-feed">
+                            <img src="../assets/img/faces/card-profile6-square.jpg" class="img img-raised rounded" alt="">
+                            <img src="../assets/img/faces/christian.jpg" class="img img-raised rounded" alt="">
+                            <img src="../assets/img/faces/card-profile4-square.jpg" class="img img-raised rounded" alt="">
+                            <img src="../assets/img/faces/card-profile1-square.jpg" class="img img-raised rounded" alt="">
+                            <img src="../assets/img/faces/marc.jpg" class="img img-raised rounded" alt="">
+                            <img src="../assets/img/faces/kendall.jpg" class="img img-raised rounded" alt="">
+                            <img src="../assets/img/faces/card-profile5-square.jpg" class="img img-raised rounded" alt="">
+                            <img src="../assets/img/faces/card-profile2-square.jpg" class="img img-raised rounded" alt="">
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <h5>We Are Here</h5>
+                        <!-- <div class="container-fluid"> -->
+                            <div class="map-responsive">
+                               <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Pacific+Park" frameborder="0" style="border:0; opacity: 1;"></iframe>
+                            </div>
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+            <hr>
+            
+            <div class="copyright text-right">
+                All the clipart images and other materials included in this project are copyrighted to their respective owners &copy;
+                <script>
+                    document.write(new Date().getFullYear())
+                </script>, made by <a href="https://www.linkedin.com/in/alexive/" target="_blank">Alex Ive</a>.
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="../assets/js/jquery.bootstrap-autohidingnavbar.js"></script>
+    <!--   Core JS Files   -->
+    <script src="../assets/js/core/jquery.min.js"></script>
+    <script src="../assets/js/core/popper.min.js"></script>
+    <script src="../assets/js/bootstrap-material-design.js"></script>
+    <!--  Google Maps Plugin  -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXi0hSWoR1BznpeSHR-7c5QqNEkBhlC_Y"></script>
+    <!--  Plugin for Date Time Picker and Full Calendar Plugin  -->
+    <script src="../assets/js/plugins/moment.min.js"></script>
+    <!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
+    <script src="../assets/js/plugins/bootstrap-datetimepicker.min.js"></script>
+    <!--	Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+    <script src="../assets/js/plugins/nouislider.min.js"></script>
+    <!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
+    <script src="../assets/js/plugins/bootstrap-selectpicker.js"></script>
+    <!--	Plugin for Tags, full documentation here: http://xoxco.com/projects/code/tagsinput/  -->
+    <script src="../assets/js/plugins/bootstrap-tagsinput.js"></script>
+    <!--	Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
+    <script src="../assets/js/plugins/jasny-bootstrap.min.js"></script>
+    <!--	Plugin for Small Gallery in Product Page -->
+    <script src="../assets/js/plugins/jquery.flexisel.js"></script>
+    <!-- Plugins for presentation and navigation  -->
+    <script src="../assets/assets-for-demo/js/modernizr.js"></script>
+    <script src="../assets/assets-for-demo/js/vertical-nav.js"></script>
+    <!-- Material Kit Core initialisations of plugins and Bootstrap Material Design Library -->
+    <script src="../assets/js/material-kit.js?v=2.0.3"></script>
+    <!-- Fixed Sidebar Nav - js With initialisations For Demo Purpose, Don't Include it in your project -->
+    <script src="../assets/assets-for-demo/js/material-kit-demo.js"></script>
+
+</body>
+
+</html>
